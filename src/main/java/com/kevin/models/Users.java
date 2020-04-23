@@ -23,8 +23,11 @@ public class Users {
     @Column(name="userid",updatable=false,nullable=false)
     private long userid;
 
-    @Column(name="email")
+    @Column(name="email", unique = true)
     private String email;
+
+    @Column(name="tel", unique = true)
+    private String tel;
 
     @Column(name="username")
     private String username;
@@ -34,6 +37,9 @@ public class Users {
 
     @Column(name="lastname")
     private String lastname;
+
+    @Column(name="birthdate")
+    private Date birthdate;
 
     @Column(name="pwd")
     @JsonIgnore
