@@ -32,6 +32,9 @@ public class Companies {
     @Column(name="companycity")
     private String companycity;
 
+    @Column(name="companystate")
+    private String companystate;
+
     @Column(name="companycountry")
     private String companycountry;
 
