@@ -136,6 +136,7 @@ public class UsersController {
         created_company.setCompanylastupdate(new Date());
 
         created_company.setCompanycity(new_company.getCompanycity());
+        created_company.setCompanystate(new_company.getCompanystate());
         created_company.setCompanycountry(new_company.getCompanycountry());
         created_company.setCompanylatitude(new_company.getCompanylatitude());
         created_company.setCompanylongitude(new_company.getCompanylongitude());
